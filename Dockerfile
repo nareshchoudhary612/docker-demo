@@ -1,4 +1,4 @@
-FROM arm32v7/node
+FROM node:4.6
 WORKDIR /app
 ADD . /app
 RUN npm install
